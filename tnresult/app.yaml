@@ -1,0 +1,10 @@
+application: tnresultdb
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /getresult
+  script: result.py
+- url: /
+  script: hello.py
